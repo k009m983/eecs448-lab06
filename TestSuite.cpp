@@ -7,5 +7,5 @@ TestSuite::TestSuite(LinkedListOfInts testList)
 
 void TestSuite::RunTest()
 {
-  
+  std::cout<<"Test\n";  
 }

@@ -6,16 +6,16 @@
 */
 #include <iostream>
 #include "LinkedListOfInts.h"
-#include "TestSuite.h"
+#include "TestSuite.cpp"
 
 int main(int argc, char** argv)
 {
 	LinkedListOfInts testableList;
-	TestSuite TS = new TestSuite(testableList);
+	TestSuite TS(testableList);
 
 	TS.RunTest();
 
-	std::cout << "Running...\nAnd we're done.\nGoodbye.\n";
+	//std::cout << "Running...\nAnd we're done.\nGoodbye.\n";
 
 	return (0);
 

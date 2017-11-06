@@ -11,11 +11,10 @@
 class TestSuite
 {
 	public:
-    TestSuite(LinkedListOfInts testList);
-    void RunTest();
-
-  private:
-    LinkedListOfInts m_list;
+    		TestSuite(LinkedListOfInts testList);
+    		void RunTest();
+	private:
+    		LinkedListOfInts m_list;
 };
 
 #endif
