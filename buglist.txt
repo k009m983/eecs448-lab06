@@ -1,0 +1,6 @@
+Best guess of purposely inserted bugs
+
+*AddBack is the same as AddFront
+*isEmpty does not look at the current size to determine if it is empty,i know this because test 2 and 3 show that size in incremented after addBack and addFront. isEmpty is just a bool that needs to be switched in the first addFront and addBack methods. 
+*RemoveFront and RemoveBack don't work most likely because they will only try to remove if isEmpty is false. But... isEmpty is buggy so they don't remove
+*The rest of my removeFront and removeBack tests failed because of the previous point.
